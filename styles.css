@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('/assets/Story\ para\ instagram\ tabela\ de\ valores\ barbearia\ rústico\ marrom\ \(Site\).png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+.whatsapp{
+    width: 40px;
+    height: 40px;
+    position: fixed; /* Fixa o ícone na tela */
+    bottom: 20px; /* Distância do ícone em relação ao fundo da página */
+    left: 20px; /* Distância do ícone em relação à direita da página */
+    z-index: 1000; /* Garante que o ícone fique acima de outros elementos */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao passar o mouse */
+
+}
+
+p{
+    color: green;
+    text-align: center;
+    position: fixed; /* Fixa o ícone na tela */
+    bottom: 20px; /* Distância do ícone em relação ao fundo da página */
+    left: 20px; /* Distância do ícone em relação à direita da página */
+    z-index: 1000; /* Garante que o ícone fique acima de outros elementos */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao passar o mouse */
+    margin-left: 50px;
+}
+
+.voltar{
+    color: #0056b3;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.voltar:hover {
+    transform: scale(1.5); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+
+}
+
+.whatsapp:hover {
+    transform: scale(1.5);
+}
+/* Responsividade */
+@media (max-width: 600px) {
+    .form-container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    
+}
