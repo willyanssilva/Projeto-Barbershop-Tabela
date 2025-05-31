@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('/assets/Story\ para\ instagram\ tabela\ de\ valores\ barbearia\ rústico\ marrom\ \(Site\).png') no-repeat center center fixed;
+    background: url('assets/tabela de valores.png') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -23,7 +23,7 @@ body {
 p{
     color: green;
     text-align: center;
-    position: fixed; /* Fixa o ícone na tela */
+    position: fixed; /* Fixa o ícone na tela *
     bottom: 20px; /* Distância do ícone em relação ao fundo da página */
     left: 20px; /* Distância do ícone em relação à direita da página */
     z-index: 1000; /* Garante que o ícone fique acima de outros elementos */
